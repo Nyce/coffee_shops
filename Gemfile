@@ -9,6 +9,15 @@ gem 'sprockets'
 group :development ,:test do
   gem 'sqlite3' , '1.3.8'
   gem 'rspec-rails', '2.13.1'
+  gem 'byebug',      '3.4.0'
+  gem 'web-console', '2.0.0.beta3'
+  gem 'spring',      '1.1.3'
+end
+
+group :test do
+  gem 'minitest-reporters', '1.0.5'
+  gem 'mini_backtrace',     '0.1.3'
+  gem 'guard-minitest',     '2.3.1'
 end
 #Use postgresql for heroku production environment
 group :production do
@@ -37,7 +46,7 @@ group :doc do
 end
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-gem 'spring',        group: :development
+#gem 'spring',        group: :development
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
