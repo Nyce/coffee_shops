@@ -56,6 +56,9 @@ GEM
     execjs (2.2.2)
     ffi (1.9.6)
     formatador (0.2.5)
+    gmaps4rails (2.1.2)
+    google-search (1.0.3)
+      json
     guard (2.6.1)
       formatador (>= 0.2.4)
       listen (~> 2.7)
@@ -183,6 +186,7 @@ GEM
     uglifier (2.5.3)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    underscore (0.0.0)
     web-console (2.0.0.beta3)
       activemodel (~> 4.0)
       binding_of_caller (= 0.7.3.pre1)
@@ -196,9 +200,12 @@ DEPENDENCIES
   bootstrap-sass
   byebug (= 3.4.0)
   coffee-rails (= 4.0.1)
+  gmaps4rails
+  google-search
   guard-minitest (= 2.3.1)
   jbuilder (~> 2.0)
   jquery-rails (= 3.1.2)
+  json
   mini_backtrace (= 0.1.3)
   minitest-reporters (= 1.0.5)
   pg
@@ -213,4 +220,5 @@ DEPENDENCIES
   therubyracer
   turbolinks
   uglifier (>= 1.3.0)
+  underscore
   web-console (= 2.0.0.beta3)
